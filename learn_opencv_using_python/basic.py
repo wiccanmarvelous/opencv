@@ -10,7 +10,7 @@ img = cv.imread('learn_opencv\Photos\cat_rainbow.jfif')
 
 # # to see only the intensity distribution of pixel rather than the colour itself
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-# cv.imshow('Gray', gray)
+cv.imshow('Gray', gray)
 
 # -----------------------------------------------
 
