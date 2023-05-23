@@ -3,7 +3,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread("learn_opencv\Photos\cat_smart.jfif")
+img = cv.imread("learn_opencv_using_python\Photos\cat_smart.jfif")
 
 cv.imshow('Cat', img)
 
@@ -81,6 +81,8 @@ cv.imshow('Flip', flip)
 
 # Cropping
 
-cropped = img
+# img[slicing]
+cropped = img[200:400, 300:400]
+cv.imshow('Cropped', cropped)
 
 cv.waitKey(0)

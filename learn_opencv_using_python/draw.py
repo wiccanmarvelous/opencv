@@ -9,7 +9,7 @@ blank = np.zeros((500, 500, 3), dtype='uint8')
 
 # -------------------------------------------------
 # # image for drawing
-# img = cv.imread("learn_opencv\Photos\cat_smart.jfif")
+# img = cv.imread("learn_opencv_using_python\Photos\cat_smart.jfif")
 # cv.imshow('Cat', img)
 
 # ----------------------------------------------

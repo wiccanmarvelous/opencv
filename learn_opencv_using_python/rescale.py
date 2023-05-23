@@ -2,7 +2,7 @@
 
 import cv2 as cv
 
-# img = cv.imread("Photos\cat_smart.jfif")
+# img = cv.imread("learn_opencv_using_python\Photos\cat_smart.jfif")
 # cv.imshow("Cat", img)
 
 # Rescaling: modifing height and width to a particular height and width. Changing width and height
@@ -36,7 +36,7 @@ def changeRes(width, height):
     capture.set(4, height)
 
 
-capture = cv.VideoCapture("Videos\cat_meow.mp4")
+capture = cv.VideoCapture("learn_opencv_using_python\Videos\cat_meow.mp4")
 
 while True:
     isTrue, frame = capture.read()

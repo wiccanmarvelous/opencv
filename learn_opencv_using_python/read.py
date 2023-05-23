@@ -3,7 +3,7 @@
 import cv2 as cv
 
 # # reading images
-# img = cv.imread("learn_opencv\Photos\cat_tongue.jfif")
+img = cv.imread("learn_opencv_using_python\Photos\cat_tongue.jfif")
 
 # # to display the image
 # # new window = cat, actual matrix of pixels to display = img
@@ -14,7 +14,7 @@ import cv2 as cv
 
 # ---------------------------------
 # this method either takes integer (0, 1, 3, etc.) for webcam or a path to a video file
-capture = cv.VideoCapture("learn_opencv\Videos\cat_meow.mp4")
+capture = cv.VideoCapture("learn_opencv_using_python\Videos\cat_meow.mp4")
 
 while True:
 

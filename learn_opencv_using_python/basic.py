@@ -1,7 +1,7 @@
 # # Essential functions in OpenCV
 
 import cv2 as cv
-img = cv.imread('learn_opencv\Photos\cat_rainbow.jfif')
+img = cv.imread('learn_opencv_using_python\Photos\cat_rainbow.jfif')
 # cv.imshow('Cat', img)
 
 # -----------------------------------------------
